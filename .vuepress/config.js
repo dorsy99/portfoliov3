@@ -2,27 +2,26 @@ module.exports = {
     title: "Andrew Albury-Dor",
     description: "Javascript, ServiceNow, Vue (maybe) and blog.",
     theme: '@vuepress/theme-blog',
+    sidebar: true,
  
     themeConfig: {
         modifyBlogPluginOptions(blogPluginOptions) {
             const sitemap = {
               hostname: 'https://yourdomain'
             }
-
             blogPluginOptions.directories[0].path = '/blog/'
             blogPluginOptions.directories[0].itemPermalink = '/blog/:year/:month/:day/:slug'
-           /* 
+           
             const comment = {
-              // service: 'disqus',
-              // shortname: 'disqus-shortname',
-              service: 'vssue',
-              owner: 'dorsy99',
-              repo: 'portfolioV3',
-              clientId: '68215883a0f022aee1b1',
-              clientSecret: 'f95a5d7e7bb6e9070449f05613bec1fd22385b3c',
+               service: 'disqus',
+               shortname: 'andrewalburydor',
+              // service: 'vssue',
+              // owner: 'dorsy99',
+              // repo: 'portfolioV3',
+              // clientId: '68215883a0f022aee1b1',
+              // clientSecret: 'f95a5d7e7bb6e9070449f05613bec1fd22385b3c',
             }
-      */
-            return { ...blogPluginOptions, sitemap /*, comment*/ }
+            return { ...blogPluginOptions, sitemap, comment }
           },
 
         nav: [
@@ -91,6 +90,6 @@ module.exports = {
           {
             'ga': 'UA-337145-18' // UA-00000000-0
           }
-        ]
+        ],
       ]
 }
