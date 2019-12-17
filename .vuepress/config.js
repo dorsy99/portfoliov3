@@ -3,39 +3,41 @@ module.exports = {
     description: "Javascript, ServiceNow, Vue (maybe) and blog.",
     theme: '@vuepress/theme-blog',
     sidebar: true,
- 
+
     themeConfig: {
         modifyBlogPluginOptions(blogPluginOptions) {
             const sitemap = {
-              hostname: 'https://yourdomain'
-            }
+                hostname: 'https://yourdomain'
+            };
+
             blogPluginOptions.directories[0].path = '/blog/'
             blogPluginOptions.directories[0].itemPermalink = '/blog/:year/:month/:day/:slug'
-           
-            const comment = {
-               service: 'disqus',
-               shortname: 'andrewalburydor',
-              // service: 'vssue',
-              // owner: 'dorsy99',
-              // repo: 'portfolioV3',
-              // clientId: '68215883a0f022aee1b1',
-              // clientSecret: 'f95a5d7e7bb6e9070449f05613bec1fd22385b3c',
-            }
-            return { ...blogPluginOptions, sitemap, comment }
-          },
 
-        nav: [
-            {
+            const comment = {
+                //service: 'disqus',
+                //shortname: 'andrewalburydor',
+                service: 'vssue',
+                autoCreateIssue: true,
+                prefix: "[Post]",
+                owner: 'dorsy99',
+                repo: 'portfolioV3',
+                clientId: '68215883a0f022aee1b1',
+                clientSecret: 'f95a5d7e7bb6e9070449f05613bec1fd22385b3c',
+            }
+            return {...blogPluginOptions, sitemap, comment }
+        },
+
+        nav: [{
                 text: 'Home',
                 link: '/',
             },
-    /*             {
-                text: 'Tags',
-                link: '/tag/',
-            }, */
+            /*             {
+                        text: 'Tags',
+                        link: '/tag/',
+                    }, */
             {
                 text: 'Work',
-                link: 'work.html',
+                link: '/work/',
             },
             {
                 text: 'Blog',
@@ -43,8 +45,7 @@ module.exports = {
             },
         ],
         footer: {
-            contact: [
-                {
+            contact: [{
                     type: 'github',
                     link: 'https://github.com/dorsy99',
                 },
@@ -53,8 +54,7 @@ module.exports = {
                     link: 'https://twitter.com/dorsy99',
                 },
             ],
-            copyright: [
-                {
+            copyright: [{
                     text: 'Privacy Policy',
                     link: 'https://policies.google.com/privacy?hl=en-US',
                 },
@@ -64,7 +64,7 @@ module.exports = {
                 },
             ],
         },
-        
+
         /*modifyBlogPluginOptions(blogPlugnOptions) {
           const writingDirectoryClassifier = {
             id: 'blog',
@@ -86,10 +86,10 @@ module.exports = {
 
     plugins: [
         [
-          '@vuepress/google-analytics',
-          {
-            'ga': 'UA-337145-18' // UA-00000000-0
-          }
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-337145-18' // UA-00000000-0
+            }
         ],
-      ]
+    ]
 }
