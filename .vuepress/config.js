@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
     title: "Andrew Albury-Dor",
     description: "Javascript, ServiceNow, Vue (maybe) and blog.",
@@ -82,6 +83,9 @@ module.exports = {
           return blogPlugnOptions
         },
         //},*/
+        /*alias: {
+            "@assets": path.resolve(__dirname, "../assets")
+        },*/
     },
 
     plugins: [
@@ -91,5 +95,12 @@ module.exports = {
                 'ga': 'UA-337145-18' // UA-00000000-0
             }
         ],
-    ]
+    ],
+    configureWebpack: {
+        resolve: {
+          alias: {
+            '@assets': '/assets/'
+          }
+        }
+      }
 }
