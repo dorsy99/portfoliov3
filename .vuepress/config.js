@@ -1,4 +1,6 @@
 const path = require("path");
+require('dotenv').config();
+
 module.exports = {
     title: "Andrew Albury-Dor",
     description: "Javascript, ServiceNow, Vue (maybe) and blog.",
@@ -23,7 +25,7 @@ module.exports = {
                 owner: 'dorsy99',
                 repo: 'portfolioV3',
                 clientId: '68215883a0f022aee1b1',
-                clientSecret: 'f95a5d7e7bb6e9070449f05613bec1fd22385b3c',
+                clientSecret: process.env.GHSECRET,
             }
             return {...blogPluginOptions, sitemap, comment }
         },
@@ -74,7 +76,7 @@ module.exports = {
         [
             '@vuepress/google-analytics',
             {
-                'ga': 'UA-337145-18' // UA-00000000-0
+                'ga': process.env.GA // UA-00000000-0
             }
         ],
     ],
