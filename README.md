@@ -10,5 +10,4 @@ I've revamped my personal site because I want to share with the world my excitem
 
 Check out my [Blog](/blog/) for my writing (some of which will be personal, some cross-posted from the [ServiceNow Community](https://urltocome)) or my [Experience](/work/) for my online resume.
 
-But most of all, Thanks!
-
+But most of all, Thanks! 
