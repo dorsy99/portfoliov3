@@ -1,0 +1,6 @@
+# Todo
+[ ] Work out what the go is with the Blog Post headers. I want to show Author, Date and Title
+[ ] Create a outro component that I can drop into posts with a "Contact me at Slack, see my stuff" set of links
+[ ] Blog more, obvs
+[ ] Work out why the v-offset of all the pages is different :facepalm:
+[ ] Update Resume page to have a better description of what I have done.

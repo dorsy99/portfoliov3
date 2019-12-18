@@ -37,7 +37,7 @@ module.exports = {
                         link: '/tag/',
                     }, */
             {
-                text: 'Resume',
+                text: 'Resumé',
                 link: '/resume/',
             },
             {
