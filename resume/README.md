@@ -6,14 +6,26 @@ author: Andrew
 # Resume
 Coming up to 10 years experience in Service Delivery, for the last <DateDiff/> I have lived and breathed ServiceNow. I am passionate about getting the most out of your investment, and building new and innovative applications on the platform.
 
+>Below is a (fairly) up-to-date list of my certifications and experience, but for the **Real Live Deal** please see my:
+>- [LinkedIn](https://www.linkedin.com/in/andrewalburydor)
+>- [ServiceNow Resume](https://account.servicenow.com/personal-data/11e9c2e8b/bd7f2d4ad/b40a6cdff/a1f44WP8E/resume.html)
+>- [ServiceNow Community Page](https://community.servicenow.com/community?id=community_user_profile&user=86ae4a2ddbd41fc09c9ffb651f961957)
+
 ## Certifications
 
-<h3>ServiceNow Certified System Administrator</h3>
+<h4>ServiceNow Certified System Administrator</h4>
 Attained April 2016, current (New York) Delta
 
-<h3>ServiceNow Certified Application Developer</h3>
+<h4>ServiceNow Certified Application Developer</h4>
 Attained July 2019, current (New York) Delta
 
+<h4>ServiceNow Micro-Certificates: </h4>
+
+- Performance Analytics (Jul 2019)
+- Platform Subscription Model (Apr 2019)
+
+<h4>ITIL Foundations (v3)</h4>
+Attained May 2015
 
 
 ## Experience
@@ -43,3 +55,4 @@ Level 2 Service Desk position supporting over 10,000 users in a state government
 Game Design Major<br />
 Queensland University of Technology<br />
 *2007 - 2009*
+

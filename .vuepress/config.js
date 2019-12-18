@@ -17,8 +17,6 @@ module.exports = {
             blogPluginOptions.directories[0].itemPermalink = '/blog/:year/:month/:day/:slug'
 
             const comment = {
-                //service: 'disqus',
-                //shortname: 'andrewalburydor',
                 service: 'vssue',
                 autoCreateIssue: true,
                 prefix: "[Post]",
@@ -48,7 +46,16 @@ module.exports = {
             },
         ],
         footer: {
-            contact: [{
+            contact: [
+                {
+                    type: 'linkedin',
+                    link: 'https://www.linkedin.com/in/andrewalburydor/',
+                },
+                {
+                    type: 'mail',
+                    link: 'mailto:andrewalburydor@gmail.com',
+                },
+                {
                     type: 'github',
                     link: 'https://github.com/dorsy99',
                 },
@@ -57,12 +64,9 @@ module.exports = {
                     link: 'https://twitter.com/dorsy99',
                 },
             ],
-            copyright: [{
-                    text: 'Privacy Policy',
-                    link: 'https://policies.google.com/privacy?hl=en-US',
-                },
+            copyright: [
                 {
-                    text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+                    text: 'Copyright © 2019 Andrew Albury-Dor',
                     link: '',
                 },
             ],
