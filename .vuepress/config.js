@@ -37,13 +37,13 @@ module.exports = {
                         link: '/tag/',
                     }, */
             {
-                text: 'Work',
-                link: '/work/',
+                text: 'Resume',
+                link: '/resume/',
             },
             {
                 text: 'Blog',
                 link: '/blog/',
-            },
+            }, 
         ],
         footer: {
             contact: [{
@@ -83,9 +83,9 @@ module.exports = {
           return blogPlugnOptions
         },
         //},*/
-        /*alias: {
+        alias: {
             "@assets": path.resolve(__dirname, "../assets")
-        },*/
+        },
     },
 
     plugins: [
@@ -96,11 +96,11 @@ module.exports = {
             }
         ],
     ],
-    configureWebpack: {
+    /*configureWebpack: {
         resolve: {
           alias: {
             '@assets': '/assets/'
           }
         }
-      }
+      }*/
 }

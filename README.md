@@ -3,8 +3,12 @@ title: Home
 author: Andrew
 ---
 <avitar />
-<h1>Hello, My name is Andrew.</h1>
 
-I'm a Father, Husband, ServiceNow Developer, IT Guy.
+I'm a Husband and Father of two, and work as a ServiceNow Developer for an insurance company in Australia.
 
-Coming up to 10 years experience in Service Delivery, for the last 3 years I have lived and breathed ServiceNow. I am passionate about getting the most out of your investment in the platform, and building new, innovative and _exciting_ applications.
+I've revamped my personal site because I want to share with the world my excitement about the ServiceNow Platform and Community. 
+
+Check out my [Blog](/blog/) for my writing (some of which will be personal, some cross-posted from the [ServiceNow Community](https://urltocome)) or my [Experience](/work/) for my online resume.
+
+But most of all, Thanks!
+
