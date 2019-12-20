@@ -6,6 +6,9 @@ module.exports = {
     description: "Javascript, ServiceNow, Vue (maybe) and blog.",
     theme: '@vuepress/theme-blog',
     sidebar: true,
+    head: [
+        ['link', { rel: 'icon', href: '/avitar.jpg' }]
+    ],
 
     themeConfig: {
         modifyBlogPluginOptions(blogPluginOptions) {
@@ -46,8 +49,7 @@ module.exports = {
             },
         ],
         footer: {
-            contact: [
-                {
+            contact: [{
                     type: 'linkedin',
                     link: 'https://www.linkedin.com/in/andrewalburydor/',
                 },
@@ -64,12 +66,10 @@ module.exports = {
                     link: 'https://twitter.com/dorsy99',
                 },
             ],
-            copyright: [
-                {
-                    text: 'Copyright © 2019 Andrew Albury-Dor',
-                    link: '',
-                },
-            ],
+            copyright: [{
+                text: 'Copyright © 2019 Andrew Albury-Dor',
+                link: '',
+            }, ],
         },
         alias: {
             "@assets": path.resolve(__dirname, "../assets")
