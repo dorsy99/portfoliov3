@@ -5,3 +5,6 @@
 [ ] Work out why the v-offset of all the pages is different :facepalm:
 [ ] Update Resume page to have a better description of what I have done.
 [X] Share on X buttons
+
+
+git subtree push —prefix .vuepress/dist ssh://andrewdo@andrewdor.com:7822/home/andrewdo/portfoliov3.git master
