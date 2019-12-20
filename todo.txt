@@ -4,3 +4,4 @@
 [ ] Blog more, obvs
 [ ] Work out why the v-offset of all the pages is different :facepalm:
 [ ] Update Resume page to have a better description of what I have done.
+[X] Share on X buttons

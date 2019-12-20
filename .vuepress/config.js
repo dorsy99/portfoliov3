@@ -83,5 +83,11 @@ module.exports = {
                 'ga': process.env.GA // UA-00000000-0
             }
         ],
+        [
+            'sitemap',
+            {
+                'hostname': 'https://andrew.alburydor.com'
+            }
+        ],
     ],
 }

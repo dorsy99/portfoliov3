@@ -4,12 +4,12 @@
   <ul class="share-buttons">
     <li>
       <a
-        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fandrew.alburydor.com%2F&quote=Andrew%20Albury-Dor"
-        title="Share on Facebook"
+        href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fandrew.alburydor.com%2F&title=Andrew%20Albury-Dor&summary=&source=https%3A%2F%2Fandrew.alburydor.com%2F"
         target="_blank"
-        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"
+        title="Share on LinkedIn"
+        onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"
       >
-        <img alt="Share on Facebook" src="/assets/simple_icons/Facebook.png" />
+        <img alt="Share on LinkedIn" src="/assets/simple_icons/LinkedIn.png" />
       </a>
     </li>
     <li>
@@ -24,22 +24,22 @@
     </li>
     <li>
       <a
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fandrew.alburydor.com%2F&quote=Andrew%20Albury-Dor"
+        title="Share on Facebook"
+        target="_blank"
+        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"
+      >
+        <img alt="Share on Facebook" src="/assets/simple_icons/Facebook.png" />
+      </a>
+    </li>
+    <li>
+      <a
         href="http://www.reddit.com/submit?url=https%3A%2F%2Fandrew.alburydor.com%2F&title=Andrew%20Albury-Dor"
         target="_blank"
         title="Submit to Reddit"
         onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"
       >
         <img alt="Submit to Reddit" src="/assets/simple_icons/Reddit.png" />
-      </a>
-    </li>
-    <li>
-      <a
-        href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fandrew.alburydor.com%2F&title=Andrew%20Albury-Dor&summary=&source=https%3A%2F%2Fandrew.alburydor.com%2F"
-        target="_blank"
-        title="Share on LinkedIn"
-        onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"
-      >
-        <img alt="Share on LinkedIn" src="/assets/simple_icons/LinkedIn.png" />
       </a>
     </li>
     <li>
