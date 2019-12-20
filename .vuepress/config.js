@@ -13,11 +13,12 @@ module.exports = {
     themeConfig: {
         modifyBlogPluginOptions(blogPluginOptions) {
             const sitemap = {
-                hostname: 'https://yourdomain'
+                hostname: 'https://andrew.alburydor.com'
             };
 
             blogPluginOptions.directories[0].path = '/blog/'
             blogPluginOptions.directories[0].itemPermalink = '/blog/:year/:month/:day/:slug'
+            blogPluginOptions.directories[0].id = 'blog'
 
             const comment = {
                 service: 'vssue',

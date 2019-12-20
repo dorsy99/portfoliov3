@@ -5,15 +5,16 @@ tag:
   - Personal
 summary: A new website, a new blog, hopefully a new enthusiasm for writing!
 date: 2019/12/10
+author: Andrew
 ---
-
-# Hello World
 <!-- Tags: [Blog](/tag/Blog) | [Personal](/tag/Personal)
 *** -->
 
 ## Hello World. This is the new internet.
 
 I have been meaning to update my personal website ever since I realised crappy HTML and a Wordpress blog stopped me from really enjoying writing and web design. I have also been rather busy with work and having two (2!) kids.
+
+<!-- more -->
 
 The new blog and website also meant I needed to knuckle down and learn some web technologies that I had been hearing about for a long time, but never really exposed myself to: 
 - Git & Github
@@ -48,5 +49,3 @@ The website will continue to improve as I find time to fix it, and (hopefully!) 
 Thanks for sticking with me! Catch you next post ;)
   
   Andrew
-
-  <ShareButtons/>
