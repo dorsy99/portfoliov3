@@ -18,8 +18,8 @@
 
     <div class="ui-post-tags" v-if="this.$page.frontmatter.tag">
       Tagged in: 
-      <span class="blog-tag" v-for="tag in this.$page.frontmatter.tag">
-        <span><a :href="tagLink(tag)">{{ tag }}</a></span>
+      <span class="ui-post-tag" v-for="tag in this.$page.frontmatter.tag">
+        <span><a :href="'/tag/' + tag">{{ tag }}</a></span>
       </span>
     </div>
   </div>
@@ -32,19 +32,12 @@ export default {
       resovlePostDate(date) {
         return new Date(date.replace(/\-/g, "/").trim()).toDateString()
       },
-      tagLink(tag) {
-        return "/tag/" + tag
-      }
     }
 }
 </script>
 
 <style>
-.ui-post-title {
-  text-align: center;
-}
-
-.blog-tag {
+.ui-post-tag {
   margin-left: 5px;
 }
 
