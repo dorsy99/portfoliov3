@@ -1,5 +1,6 @@
 ---
 title: Hello World
+type: post
 tag: 
   - Blog
   - Personal
@@ -7,8 +8,6 @@ summary: A new website, a new blog, hopefully a new enthusiasm for writing!
 date: 2019/12/10
 author: Andrew
 ---
-<!-- Tags: [Blog](/tag/Blog) | [Personal](/tag/Personal)
-*** -->
 
 ## Hello World. This is the new internet.
 

@@ -68,7 +68,7 @@ module.exports = {
                 },
             ],
             copyright: [{
-                text: 'Copyright © 2019 Andrew Albury-Dor',
+                text: 'Copyright © 2020 Andrew Albury-Dor',
                 link: '',
             }, ],
         },
@@ -88,6 +88,18 @@ module.exports = {
             'sitemap',
             {
                 'hostname': 'https://andrew.alburydor.com'
+            }
+        ],
+        [
+            'vuepress-plugin-rss',
+            {
+                base_url: '/', // required
+                site_url: 'https://andrew.alburydor.com', // required
+                copyright: '2020 Andrew Albury-Dor', // optional
+                // filter some post
+                filter: (frontmatter) => { return [true | false] },
+                // How many articles
+                count: 20
             }
         ],
     ],
