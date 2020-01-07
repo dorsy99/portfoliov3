@@ -5,14 +5,14 @@
       <h1>{{ this.$page.title }}</h1>
     </div>
 
-    <div class="ui-post-author" v-if="this.$page.frontmatter.author">
+    <div class="ui-postHead-author" v-if="this.$page.frontmatter.author">
       <span>
         By {{ this.$page.frontmatter.author }}
         <span v-if="this.$page.frontmatter.location">in {{ this.$page.frontmatter.location }}</span>
       </span>
     </div>
 
-    <div class="ui-post-date" v-if="this.$page.frontmatter.date">
+    <div class="ui-postHead-date" v-if="this.$page.frontmatter.date">
         <span>{{ resovlePostDate(this.$page.frontmatter.date) }}</span>
     </div>
 
@@ -39,6 +39,18 @@ export default {
 <style>
 .ui-post-tag {
   margin-left: 5px;
+}
+
+.ui-post-tags {
+  font-size:small;
+}
+
+.ui-postHead-author {
+  font-size:small;
+}
+
+.ui-postHead-date {
+  font-size:small;
 }
 
 </style>

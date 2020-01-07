@@ -23,30 +23,37 @@ Attained July 2019, current (New York) Delta
 
 - Performance Analytics (Jul 2019)
 - Platform Subscription Model (Apr 2019)
+- Configuring the CMDB (Jan 2020)
+- CMDB Health (Jan 2020)
+- Automated Test Framework (Jan 2020)
+- Flow Designer (Jan 2020)
+- IntegrationHub (Jan 2020)
+- Performance Analytics (Jan 2020)
+- Predictive Intelligence (Jan 2020)
+- Virtual Agent (Jan 2020)
 
-<h4>ITIL Foundations (v3)</h4>
-Attained May 2015
+<h4>ITIL Foundations v3 (May 2015)</h4>
 
 
 ## Experience
 
-**SYSTEMS ANALYST - SERVICENOW**<br />
+**ServiceNow Technical Lead**<br />
 Auto & General Insurance<br />
 *February 2018 - Present*
 
-Platform Owner and Developer for ServiceNow in the organisation, I successfully implemented Discovery, CMDB, Orchestration, Self-Service Password Reset and many other value-add projects.
+Platform Owner, Developer, and Architect for ServiceNow within the organisation, I successfully implemented Discovery, CMDB, Orchestration/IntegrationHub, Self-Service Password Reset and many other value-add projects.
 
-**SERVICENOW ADMINISTRATOR**<br />
+**ServiceNow Administrator**<br />
 Queensland Government<br />
 *March 2016 - October 2017*
 
-Develop and Maintain the ServiceNow Platform for a large state government. Oversaw a number of major version upgrades and implementations throughout my tenure.
+Develop and Maintain the ServiceNow Platform for a large state government department. Oversaw a number of major version upgrades and implementations throughout my tenure.
 
-**CUSTOMER SERVICE OFFICER**<br />
+**Customer Service Officer**<br />
 Queensland Government<br />
 *May 2011 - March 2016*
 
-Level 2 Service Desk position supporting over 10,000 users in a state government department. Supporting and troubleshooting Windows PCs and Servers from XP to Windows 10.
+Level 2 Service Desk position supporting over 10,000 users in a large state government department. Supporting and troubleshooting Windows PCs and Servers from XP to Windows 10.
 
 
 ## Education
@@ -55,4 +62,3 @@ Level 2 Service Desk position supporting over 10,000 users in a state government
 Game Design Major<br />
 Queensland University of Technology<br />
 *2007 - 2009*
-

@@ -3,7 +3,7 @@
 [ ] Create a outro component that I can drop into posts with a "Contact me at Slack, see my stuff" set of links
 [ ] Blog more, obvs
 [ ] Work out why the v-offset of all the pages is different :facepalm:
-[ ] Update Resume page to have a better description of what I have done.
+[X] Update Resume page to have a better description of what I have done.
 [X] Share on X buttons
 
 
