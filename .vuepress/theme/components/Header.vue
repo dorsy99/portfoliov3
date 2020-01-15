@@ -74,7 +74,8 @@
       a
         color #000
         font-weight bold
-        font-family PT Serif, Serif
+        //font-family PT Serif, Serif
+        font-family Raleway, sans-serif
         text-decoration none
 
     .header-right-wrap
@@ -93,14 +94,16 @@
           margin-left 20px
 
           a
-            font-family PT Serif, Serif
+            //font-family PT Serif, Serif
+            font-family Raleway, sans-serif
             font-size 20px
             // color lighten(#3eaf7c, 30%)
             text-decoration none
             transition color .3s
 
       .search-box
-        font-family PT Serif, Serif
+        //font-family PT Serif, Serif
+        font-family Montserrat, sans-serif
         margin-left 20px
 
         input
