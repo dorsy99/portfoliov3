@@ -64,7 +64,7 @@ module.exports = {
                 },
                 {
                     type: 'twitter',
-                    link: 'https://twitter.com/dorsy99',
+                    link: 'https://twitter.com/andrewalburydor',
                 },
             ],
             copyright: [{
