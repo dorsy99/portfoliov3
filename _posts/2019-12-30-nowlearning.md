@@ -1,7 +1,7 @@
 ---
 title: Happy (Educational) Holidays!
 type: post
-tag: 
+tags: 
   - ServiceNow
   - Personal
   - Education

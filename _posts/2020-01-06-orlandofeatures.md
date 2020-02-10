@@ -1,7 +1,7 @@
 ---
 title: It's Release Season for ServiceN(Orlando)w
 type: post
-tag: 
+tags: 
   - ServiceNow
 summary: My hot tips for ServiceNow Orlando release
 date: 2020/01/06

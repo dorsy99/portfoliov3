@@ -11,7 +11,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        modifyBlogPluginOptions(blogPluginOptions) {
+        /*modifyBlogPluginOptions(blogPluginOptions) {
             const sitemap = {
                 hostname: 'https://andrew.alburydor.com'
             };
@@ -30,7 +30,8 @@ module.exports = {
                 clientSecret: process.env.GHSECRET,
             }
             return {...blogPluginOptions, sitemap, comment }
-        },
+        },*/
+
 
         nav: [{
                 text: 'Home',
@@ -78,6 +79,23 @@ module.exports = {
     },
 
     plugins: [
+        [
+            '@vuepress/blog',
+            {
+                directories: [{
+                    // Unique ID of current classification
+                    id: 'blog',
+                    // Target directory
+                    dirname: '_posts',
+                    // Path of the `entry page` (or `list page`)
+                    path: '/blog/',
+                }, ],
+                frontmatters: [{
+                    id: "tag",
+                    keys: ['tag', 'tags'],
+                }, ]
+            },
+        ],
         [
             '@vuepress/google-analytics',
             {

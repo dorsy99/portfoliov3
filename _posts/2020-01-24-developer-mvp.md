@@ -1,8 +1,8 @@
 ---
 title: ServiceNow Developer MVP 2020
 type: post
-tag: 
-  - ServiceNow
+tags: 
+- ServiceNow
 summary: Totally a real thing that I (apparently) deserve
 date: 2020/01/24
 author: Andrew

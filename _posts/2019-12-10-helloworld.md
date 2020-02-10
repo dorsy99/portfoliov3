@@ -1,9 +1,9 @@
 ---
 title: Hello World
 type: post
-tag: 
-  - Blog
-  - Personal
+tags: 
+- blog
+- personal
 summary: A new website, a new blog, hopefully a new enthusiasm for writing!
 date: 2019/12/10
 author: Andrew
